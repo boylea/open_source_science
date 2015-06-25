@@ -731,12 +731,15 @@ Let's make science puppies and rainbows
 :data-y: r0
 :data-z: r0
 
-`presentation source`_
+`presentation source`_ on Github
+
+slides on `amyboyle.ninja`__
 
 .. _presentation source: https://github.com/boylea/open_source_science
 
-----------------------------------------------------------------
+__ <http://amyboyle.ninja/open_source_science/#/who-am-i>
 
+----------------------------------------------------------------
 
 :id: overview
 :data-x: 7000
