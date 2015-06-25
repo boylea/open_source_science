@@ -56,11 +56,11 @@ img {
 }
 
 .past {
-  opacity:1;
+  opacity:  1;
 }
 
 .future {
-  opacity:0.4;
+  opacity: 0.5;
 }
 
 div#who-am-i{
@@ -81,7 +81,7 @@ div#old-days{
   margin-top: -200px;
 }
 
-div#bokeh-viz, div#mpl-viz{
+div#bokeh-viz, div#mpl-viz, div#pandas-viz{
     font-size:36px;
 }
 

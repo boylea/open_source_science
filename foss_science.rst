@@ -213,6 +213,7 @@ Learning the Hard Way
 :data-scale: 0.4
 :data-x: r250
 :data-y: r0
+:data-z: r-600
 :data-rotate-y: 90
 
 .. image:: img/batlab_screenshot.png
@@ -253,11 +254,11 @@ No tests?
 .. image:: img/tyson.gif
 
 .. note::
-    image : http://giphy.com/gifs/spoilers-neil-degrasse-tyson-cant-tell-yH44qh8DpNyfK
+    image : http://giphy.com/gifs/spoilers  -neil-degrasse-tyson-cant-tell-yH44qh8DpNyfK
 
 ----------------------------------------------------------------
 
-:data-rotate-x: 90
+:data-rotate-y: 90
 :data-x: r0
 :data-y: r0
 :data-z: r0
@@ -277,7 +278,7 @@ Just do it.
 
 ----------------------------------------------------------------
 
-:data-rotate-x: 0
+:data-rotate-y: 0
 :data-x: r500
 :data-y: r1200
 :data-z: r-500
@@ -295,7 +296,7 @@ Version Control All the Things
 ----------------------------------------------------------------
 
 
-:data-rotate-x: 90
+:data-rotate-y: -90
 :data-x: r0
 :data-y: r0
 :data-z: r0
@@ -310,7 +311,7 @@ Version Control All the Things
 ----------------------------------------------------------------
 
 
-:data-rotate-x: 0
+:data-rotate-y: 0
 :data-x: r500
 :data-y: r1200
 :data-z: r-500
@@ -330,7 +331,7 @@ Use Github.
 Encourage Programming literacy
 ==============================
 
-    * Python, R, Octave, Julia, C++
+    * Python, R, Octave, Julia
     * Software Carpentry, Coursera
 
 .. note::
@@ -456,6 +457,7 @@ Using R:
     print(results['counts'])
     print(results['breaks'])
 
+
 ----------------------------------------------------------------
 
 .. image:: img/notebook.png
@@ -518,8 +520,26 @@ Seaborn
 
 ---------------------------------------------------------------
 
-:id: bokeh-viz
+:id: pandas-viz
 
+Pandas
+
+.. code:: python
+
+    spike_table = pd.read_csv('spike_times.csv', sep=',', names=range(5))
+
+    spike_table.plot(kind='hist', bins=20,  range=(0,0.2));
+    plt.xlabel("time (s)")
+    plt.ylabel("no. spikes")
+    plt.title("Cell Spike Timing");
+
+
+.. image:: img/pandas_plot.png
+    :width: 50%
+
+---------------------------------------------------------------
+
+:id: bokeh-viz
 
 Bokeh
 
