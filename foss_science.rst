@@ -726,6 +726,17 @@ Let's make science puppies and rainbows
 
 ----------------------------------------------------------------
 
+:data-rotate-y: -90
+:data-x: r0
+:data-y: r0
+:data-z: r0
+
+`presentation source`_
+
+.. _presentation source: https://github.com/boylea/open_source_science
+
+----------------------------------------------------------------
+
 
 :id: overview
 :data-x: 7000
