@@ -17,13 +17,7 @@ h1 {
 
 h2 {
     margin-top: 1em;
-    font-size:120%;
-    font-weight: normal;
-}
-
-h3 {
-    margin-top: 1em;
-    font-size:100%;
+    font-size:110%;
     font-weight: normal;
 }
 
@@ -53,11 +47,6 @@ img {
   margin: 5px;
 }
 
-#pyqt-vs-pyside p{
-  padding:0.1em;
-  margin:0;
-}
-
 .step {
     width:1024px;
 }
@@ -74,7 +63,16 @@ img {
   opacity:0.4;
 }
 
-div#spikey-zoom{
+div#who-am-i{
+  margin-top: 0px;
+}
+
+div#who-am-i p{
+  margin-top: 100px;
+  text-align: center;
+}
+
+div#cover-zoom{
   opacity:1;
 }
 

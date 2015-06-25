@@ -7,22 +7,30 @@
 
 ---------------------------------------------------------------
 
+:id: who-am-i
+
 :data-scale: 1
 
 Open Sourcing Science
 ===================================
 
 Open source tools for Scientific Research
+******************************************
+
+Amy Boyle
+`@amylouboyle`__
 
 .. note::
     I am going to talk making science research more open source. Both from the angle of using existing open source tools, and making your own code open source.
 
+__ https://twitter.com/amylouboyle
+
 ----------------------------------------------------------------
 
-:data-x: r2200
+:data-x: r500
+:data-y: r1200
+:data-z: r-500
 
-Amy Boyle
-=========
 
 .. image:: img/wsuv_logo.png
 
@@ -35,12 +43,20 @@ Amy Boyle
     
 ----------------------------------------------------------------
 
-Table of Contents
+How do I Science?
 ==================
 
 * Reproducibility in Science
-* Examples of scientific libraries
+* Using OS in practice
 * Citizen Science
+
+----------------------------------------------------------------
+
+Open science vs open source
+===========================
+
+* Open science is the idea that scientific research should be open and immediately shared
+* Open source is the practice of open and universal access to the source code of software
 
 ----------------------------------------------------------------
 
@@ -60,6 +76,7 @@ Back in the old days...
 
 :data-scale: 0.4
 :data-x: r0
+:data-z: r0
 :data-y: r200
 
 .. image:: img/paper_cover.jpg
@@ -83,7 +100,9 @@ Back in the old days...
 
 :data-scale: 1
 :data-rotate-y: 0
-:data-x: r2000
+:data-x: r500
+:data-y: r1200
+:data-z: r-500
 
 The internet!
 ==============
@@ -141,14 +160,6 @@ Science has a reproducibility problem
 
 ----------------------------------------------------------------
 
-Open science vs open source
-===========================
-
-* Open science is the idea that scientific research should be open and immediately shared
-* Open source is the practice of open and universal access to the source code of software
-
-----------------------------------------------------------------
-
 I care cuz why?
 ===============
 
@@ -200,9 +211,9 @@ Learning the Hard Way
 ----------------------------------------------------------------
 
 :data-scale: 0.4
-:data-x: r0
-:data-y: r1000
-:data-rotate-x: 90
+:data-x: r250
+:data-y: r0
+:data-rotate-y: 90
 
 .. image:: img/batlab_screenshot.png
     :width: 90%
@@ -210,8 +221,9 @@ Learning the Hard Way
 ----------------------------------------------------------------
 
 :data-scale: 0.4
-:data-x: r0
-:data-z: r2000
+:data-x: r-400
+:data-z: r0
+:data-rotate-y: -90
 
 .. image:: img/sparkle_screenshot.png
     :width: 100%
@@ -221,9 +233,9 @@ Learning the Hard Way
 :data-scale: 1
 :data-rotate-y: 0
 :data-rotate-x: 0
-:data-x: r2000
-:data-y: r0
-:data-z: 0
+:data-x: r500
+:data-y: r1200
+:data-z: r-500
 
 Docs or it didn't happen.
 ==========================  
@@ -235,6 +247,21 @@ Docs or it didn't happen.
     Code docs
 
 ----------------------------------------------------------------
+
+No tests?
+
+.. image:: img/tyson.gif
+
+.. note::
+    image : http://giphy.com/gifs/spoilers-neil-degrasse-tyson-cant-tell-yH44qh8DpNyfK
+
+----------------------------------------------------------------
+
+:data-rotate-x: 90
+:data-x: r0
+:data-y: r0
+:data-z: r0
+
 
 Testing
 ========
@@ -250,20 +277,10 @@ Just do it.
 
 ----------------------------------------------------------------
 
-:data-rotate-x: -90
-:data-x: r0
-
-No tests?
-
-.. image:: img/tyson.gif
-
-.. note::
-    image : http://giphy.com/gifs/spoilers-neil-degrasse-tyson-cant-tell-yH44qh8DpNyfK
-
-----------------------------------------------------------------
-
 :data-rotate-x: 0
-:data-x: r2000
+:data-x: r500
+:data-y: r1200
+:data-z: r-500
 
 Version Control All the Things
 ===============================
@@ -277,6 +294,12 @@ Version Control All the Things
     
 ----------------------------------------------------------------
 
+
+:data-rotate-x: 90
+:data-x: r0
+:data-y: r0
+:data-z: r0
+
 .. image:: img/version_comic.gif
     :width: 50%
 
@@ -285,6 +308,12 @@ Version Control All the Things
     If this is all obvious to you, encourage others by using examples that are relevant to them.
 
 ----------------------------------------------------------------
+
+
+:data-rotate-x: 0
+:data-x: r500
+:data-y: r1200
+:data-z: r-500
 
 Access
 ========
@@ -301,7 +330,7 @@ Use Github.
 Encourage Programming literacy
 ==============================
 
-    * Python, R, Octave, C++, Julia
+    * Python, R, Octave, Julia, C++
     * Software Carpentry, Coursera
 
 .. note::
@@ -316,6 +345,10 @@ Encourage Programming literacy
     Why we use Python...
 
 ----------------------------------------------------------------
+
+:data-y: 0
+:data-z: 0
+:data-x: 4000
 
 Doing Data Analysis
 =====================
@@ -333,6 +366,10 @@ Python
     There is a wikipedia list (https://en.wikipedia.org/wiki/List_of_statistical_packages)
 
 ----------------------------------------------------------------
+
+:data-y: r1200
+:data-z: r-500
+:data-x: r500
 
 .. image:: img/spike.png
     :width: 90%
@@ -418,6 +455,11 @@ Using R:
     results = hist(all_spikes, 20)
     print(results['counts'])
     print(results['breaks'])
+
+----------------------------------------------------------------
+
+.. image:: img/notebook.png
+    :width: 95%
 
 ----------------------------------------------------------------
 
@@ -533,6 +575,14 @@ R
 
 ----------------------------------------------------------------
 
+Honorable Mention
+==================
+
+* Julia
+* ggplot2   
+
+----------------------------------------------------------------
+
 
 Sharing Results
 ================
@@ -551,6 +601,10 @@ Figshare, Dryad, Dataverse
 
 ----------------------------------------------------------------
 
+:data-y: 0
+:data-z: 0
+:data-x: 8000
+
 Citizen Science
 =================
 
@@ -564,6 +618,11 @@ Citizen Science
     How can we involve volunteer citizens in traditional scientific research?
 
 ----------------------------------------------------------------
+
+
+:data-y: r1200
+:data-z: r-500
+:data-x: r500
 
 Zooniverse
 ==========
@@ -647,8 +706,9 @@ Let's make science puppies and rainbows
 
 ----------------------------------------------------------------
 
+
 :id: overview
-:data-x: 5000
+:data-x: 7000
 :data-y: 5000
 :data-scale: 15
 :data-rotate-z: 0
